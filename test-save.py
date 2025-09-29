@@ -1,6 +1,7 @@
 import subprocess
 import json
 from safetensors.torch import save_model
+import torch
 
 def get_git_tag():
     return subprocess.check_output(['git', 'describe', '--tags', '--always']).decode().strip()
