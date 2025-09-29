@@ -7,4 +7,6 @@ requires-python = ">=3.12"
 dependencies = [
     "safetensors>=0.6.2",
     "torch>=2.8.0",
+    "packaging>=21.0",
+    "numpy>=2.3.3",
 ]
